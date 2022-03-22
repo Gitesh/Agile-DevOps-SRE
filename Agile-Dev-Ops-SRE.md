@@ -33,8 +33,8 @@ Respond to market                  Deliver change               Preserve availab
                                                                                                      Scalability (adaptive capacity)
                                        \-------------DevOps--------------->/         ; Dev led - in newer Products, change to codebase is constant
                                         \----------DevSecOps------------->/          ; Security led - this is really DevComplianceOps
-                                                                      \--GitOps--/   ; Infrastructure configuration - ephermal, scalable, immutable,
-                                                                                                                    repeatable
+                                                                      \--GitOps--/   ; Infrastructure configuration - ephemeral, scalable, immutable,
+                                                                                                                      repeatable
 </pre>
 
 ### **Principles**
