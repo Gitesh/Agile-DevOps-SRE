@@ -19,7 +19,7 @@ Respond to market                  Deliver change               Preserve availab
   conditions                         quickly                    (resistant to change)
 </pre>
 
->### Framework
+>### Capability
 
 <pre>
  ----------------                    -------------                    ------------
@@ -35,6 +35,7 @@ Respond to market                  Deliver change               Preserve availab
                                         \----------DevSecOps------------->/          ; Security led - this is really DevComplianceOps
                                                                       \--GitOps--/   ; Infrastructure configuration - ephemeral, scalable, immutable,
                                                                                                                       repeatable
+                                                                      \--AIOps--/    ; predictive failure and maintenance
 </pre>
 
 ### **Principles**
@@ -49,3 +50,8 @@ _**Dev and Ops effort changes depending on where a Product is in its lifecycle:*
 ### Notes
 SRE = Ops focused Development. Maybe we should call it OpsDev?  
 DevSecOps = Security gets the focus but really this is DevComplianceOps and applies to any standard you need to comply with.
+Capability = people (skills, tacit knowledge), process (methodologies, codified knowledge automated), and technologies (optional vs standardised)
+Agile = is a framework (flexible, non prescriptive (ambiguous, no specific steps or process), room for creativity and customisation)
+Development = is a methodology (prescriptive, consistent, systematic way of doing something)
+
+
