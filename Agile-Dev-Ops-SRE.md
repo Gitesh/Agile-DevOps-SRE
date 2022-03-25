@@ -16,7 +16,7 @@
  | Value    |                       | Products |                  | Environments |
   ----------                         ----------                    --------------
 Respond to market                  Deliver change               Preserve availability
-  conditions                         quickly                    (resistant to change)
+  conditions                          quickly                   (resistant to change)
 </pre>
 
 >### Capability
@@ -40,9 +40,9 @@ Respond to market                  Deliver change               Preserve availab
 </pre>
 
 ### **Principles**
-_**SRE:**_ systems engineering and software engineering are of equal value.  
+_**SRE:**_ platform engineering and software engineering are of equal value.  
 
-_**Creating Customer Value:**_ this is the ultimate measure of success. If you can't track the value created then you don't know whether you made a difference:  
+_**Creating Customer Value is the ultimate measure of success:**_ If you can't track the value created then you don't know whether you made a difference:  
 * Business agility is an outcome of engineering disciples embracing speed.  
 * Smaller, reversible change supports stability AND agility. 
 * Feedback + agility enables innovation.
