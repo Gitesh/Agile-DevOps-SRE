@@ -15,7 +15,7 @@
  | Customer |    ---------------->  | Digital  |  --------------> | Stable       |
  | Value    |                       | Products |                  | Environments |
   ----------                         ----------                    --------------
-Respond to market                  Deliver change               Preserve availability
+Respond to market                  Deliver change               Preserve reliability
   conditions                          quickly                   (resistant to change)
 </pre>
 
@@ -44,13 +44,24 @@ _**SRE:**_ platform engineering and software engineering are of equal value.
 
 _**Creating Customer Value is the ultimate measure of success:**_ If you can't track the value created then you don't know whether you made a difference:  
 * Business agility is an outcome of engineering disciples embracing speed.  
+
 * Smaller, reversible change supports stability AND agility. 
+
 * Feedback + agility enables innovation.
 
 _**Dev and Ops effort changes depending on where a Product is in its lifecycle:**_ newer products are Dev heavy by nature with little focus on Ops. For established Products with little ongoing change, the balance is reversed, a greater focus on Ops than Dev:
 
 * New digital products/applications have a *high* frequency of change - there is more Development work, focus is on rapid change.
+
 * Older digital products/applications have a *low* frequency of change - there is more Operations work to stabilise the environment, focus is on maintenance and uptime.
+
+_**Non-functional requirements:**_ Operational reliability gives confidence in stability. Stability builds trust, trust attracts customers. The product owner is feature focused so will not ask for NFRs. Ops should define non-negotiable NFRs. 
+
+* Reliability = measures whether a system is functioning correctly. This will require prioritisation of Ops vs Dev work.
+
+* Availability = individual components of a system may be available within the period measured (SLA), but it does not mean the system is functioning correctly.
+
+* Scalability = automated, flexible and demand based resource use (CPU, Network, Storage). 
 
 
 ### **Notes**
@@ -64,4 +75,3 @@ Agile = is a framework (flexible, non prescriptive (ambiguous, no specific steps
 
 Development = is a methodology (prescriptive, consistent, systematic way of doing something).
 
-NFR = Operational Availability gives confidence in stability. Stability builds trust, trust attracts customers.
