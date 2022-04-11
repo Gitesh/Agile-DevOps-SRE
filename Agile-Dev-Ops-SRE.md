@@ -41,7 +41,7 @@ Respond to market                  Deliver change               Preserve reliabi
 
 ### **Principles**
 \
-_**SRE:**_ platform engineering and software engineering are of equal value.  
+_**SRE:**_ platform engineering and software engineering are of equal value. Together they create a self balancing system that helps product teams to get features to market quickly, but not at the expense of reliability and integrity (see NFRs).  
 \
 _**Creating Customer Value is the ultimate measure of success:**_ If you can't track the value created then you don't know whether you made a difference:  
 * Business agility is an outcome of engineering disciples embracing speed.  
