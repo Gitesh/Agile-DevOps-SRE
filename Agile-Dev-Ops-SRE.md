@@ -1,13 +1,5 @@
 # How are Agile, DevOps, DevSecOps, GitOps, SRE related?
 
->### Practice
-<pre>
- -------------                     -------------                   -------------  
-| Business    |                   | Software    |                 | Platform    |  
-| Change      | ----------------> | Engineering | --------------> | Engineering |  
- -------------                     -------------                   -------------  
-</pre>
-
 >### Objective 
 <pre>
   ----------                         ----------                    --------------
@@ -18,6 +10,16 @@
 Respond to market                  Deliver change               Preserve reliability
   conditions                          quickly                   (resistant to change)
 </pre>
+
+
+>### Practice
+<pre>
+ -------------                     -------------                   -------------  
+| Business    |                   | Software    |                 | Platform    |  
+| Change      | ----------------> | Engineering | --------------> | Engineering |  
+ -------------                     -------------                   -------------  
+</pre>
+
 
 >### Capability
 
