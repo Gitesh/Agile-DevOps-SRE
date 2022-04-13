@@ -62,11 +62,14 @@ _**Dev and Ops effort changes depending on where a Product is in its lifecycle:*
 \
 _**Non-functional requirements:**_ Operational reliability gives confidence in stability. Stability builds trust, trust attracts customers. The product owner is feature focused so will not ask for NFRs. Ops should define non-negotiable NFRs. 
 
-* Reliability - measures whether a system is functioning correctly. This will require prioritisation of Ops work over features.
+* Quality = The quality of incoming work from previous stages affects the later stages (Demming). As DevOps is a feedback loop, quality eventually affects every thing.
+
+* Reliability - measures whether a system is functioning correctly. This will require prioritisation of Ops work over features. Improving the quality of incoming code from 'Build' gives 'Run' reliability. This applies equally for 'Change' to 'Build'
 
 * Availability - individual components of a system may be available within the period measured (SLA), but it does not mean the system is functioning correctly.
 
 * Scalability - automated, flexible and demand based resource use (CPU, Network, Storage).  
+
 
   
 ### **Notes**
@@ -76,7 +79,7 @@ DevSecOps = Security gets the focus but really this is DevComplianceOps and appl
 
 Capability = people (skills, tacit knowledge), process (methodologies, automated for codified knowledge), and technologies (optional vs standardised)  .
 
-Agile = is a framework (flexible, non prescriptive (ambiguous, no specific steps or process), room for creativity and customisation).  
+Agile = is a framework - flexible, non prescriptive (ambiguous, no specific steps or process), room for creativity and customisation).  
 
 Development = is a methodology (prescriptive, consistent, systematic way of doing something).
 
