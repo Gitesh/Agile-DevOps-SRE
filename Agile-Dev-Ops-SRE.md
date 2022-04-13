@@ -62,7 +62,7 @@ _**Dev and Ops effort changes depending on where a Product is in its lifecycle:*
 \
 _**Non-functional requirements:**_ Operational reliability gives confidence in stability. Stability builds trust, trust attracts customers. The product owner is feature focused so will not ask for NFRs. Ops should define non-negotiable NFRs. 
 
-* Quality = The quality of incoming work from previous stages affects the later stages (Demming). As DevOps is a feedback loop, quality eventually affects every thing.
+* Quality - The quality of incoming work from previous stages affects the later stages. As DevOps is a feedback loop, quality eventually affects every thing. Improving quality automatically improves productivity.  
 
 * Reliability - measures whether a system is functioning correctly. This will require prioritisation of Ops work over features. Improving the quality of incoming code from 'Build' gives 'Run' reliability. This applies equally for 'Change' to 'Build'
 
@@ -77,7 +77,7 @@ SRE = Ops focused Development. Maybe we should call it OpsDev?
 
 DevSecOps = Security gets the focus but really this is DevComplianceOps and applies to any standard you need to comply with.  
 
-Capability = people (skills, tacit knowledge), process (methodologies, automated for codified knowledge), and technologies (optional vs standardised)  .
+Capability = people (skills, tacit knowledge), process (methodologies, automated for codified knowledge), and technologies (optional vs standardised).  
 
 Agile = is a framework - flexible, non prescriptive (ambiguous, no specific steps or process), room for creativity and customisation).  
 
