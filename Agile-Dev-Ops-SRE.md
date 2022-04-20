@@ -38,7 +38,8 @@ Respond to market                  Deliver change               Preserve reliabi
                                                                       \--GitOps--/   ; Infrastructure configuration - ephemeral, scalable, immutable,
                                                                                                                       repeatable
                                                                       \--AIOps---/    ; predictive failure, anomaly detection and maintenance
-                                     \----------------FinOps---------------------/    ; forecasting, budgeting and tracking spend across the SDLC
+              \-----------------------FinOps-------------------------------------/    ; forecasting, budgeting and tracking spend across the SDLC
+                                                    \----ChatOps----/                 ; use of auditable collaboration tools to progress workflow requests
 </pre>
 
 ### **Principles**
@@ -83,3 +84,4 @@ Agile = is a framework - flexible, non prescriptive (ambiguous, no specific step
 
 Development = is a methodology (prescriptive, consistent, systematic way of doing something).
 
+ChatOps = is a control. It ensures changes are reviewed and approved by knowledgable person prior to progressing the workflow.
