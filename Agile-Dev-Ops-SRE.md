@@ -37,7 +37,7 @@ Respond to market                  Deliver change               Preserve reliabi
                                         \-----------DevSecOps------------>/          ; Security led - this is really DevComplianceOps
                                                                       \--GitOps--/   ; Infrastructure configuration - ephemeral, scalable, immutable,
                                                                                                                       repeatable
-                                                                      \--AIOps---/    ; predictive failure, anomaly detection and prevantative maintenance
+                                                                      \--AIOps---/    ; Prevantative maintenance enabled by predictive failure and anomaly detection
               \-----------------------FinOps-------------------------------------/    ; forecasting, budgeting and tracking spend across the SDLC
                                                     \----ChatOps----/                 ; use of auditable collaboration tools to progress workflow requests
 </pre>
