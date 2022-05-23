@@ -31,7 +31,7 @@ Respond to market                  Deliver change               Preserve reliabi
                                      \<----------------SRE-----------------------/   ; Ops led - mature Products with very little change to codebase
                                                                                                - focus is on NFRs:
                                                                                                      Reliability (security, performance, integrity)
-                                                                                                     Availability (resilience, redundancy, recovery)
+                                                                                                     Availability (resilience, redundancy, recovery, repairability)
                                                                                                      Scalability (adaptive capacity)
                                        \-------------DevOps--------------->/         ; Dev led - in newer Products, change to codebase is constant
                                         \-----------DevSecOps------------>/          ; Security led - this is really DevComplianceOps
@@ -68,7 +68,7 @@ _**Non-functional requirements:**_ Operational reliability gives confidence in s
 * Reliability - measures whether a system is functioning correctly. This will require prioritisation of Ops work over features. Improving the quality of incoming code from 'Build' gives 'Run' reliability. This applies equally for 'Change' to 'Build'
 
 * Availability - individual components of a system may be available within the period measured (SLA), but it does not mean the system is functioning correctly.
-
+               - repairability reduces downtime. Complex systems are difficult to repair. Making SPoFs easy to repair improves availabilty. Use preventative maintenance.
 * Scalability - automated, flexible and demand based resource use (CPU, Network, Storage).  
 
 
