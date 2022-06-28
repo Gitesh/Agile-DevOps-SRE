@@ -60,19 +60,20 @@ _**Dev and Ops effort changes depending on where a Product is in its lifecycle:*
 * Older digital products/applications have a *low* frequency of change - there is more Operations work to stabilise the environment, focus is on maintenance and uptime.
 
 \
-_**Non-functional requirements:**_ Operational reliability gives confidence in stability. Stability builds trust, trust attracts customers. The product owner is feature focused so will not ask for NFRs. Ops should define non-negotiable NFRs. 
+_**Non-functional requirements:**_ Operational reliability gives confidence in stability. Stability builds trust, trust attracts customers. A product owner is feature focused so will not ask for NFRs. Ops should define non-negotiable NFRs. 
 
-* Quality - The quality of incoming work from previous stages affects the later stages. As DevOps is a feedback loop, quality eventually affects every thing. Improving quality automatically improves productivity.  
+* Quality - The quality of incoming work from previous stages affects the later stages. As DevOps is a feedback loop, quality eventually affects everything. Improving quality automatically improves productivity.  
 
-* Reliability - measures whether a system is functioning correctly. This will require prioritisation of Ops work over features. Improving the quality of incoming code from 'Build' gives 'Run' reliability. This applies equally for 'Change' to 'Build'
+* Reliability - measures whether a system is functioning correctly. This will require prioritisation of Ops work over features (SRE). Improving the quality of incoming code from 'Build' gives 'Run' reliability. This applies equally from 'Change' to 'Build'.
 
-* Availability - individual components of a system may be available within the period measured (SLA), but it does not mean the system is functioning correctly. Repairability reduces downtime. Complex systems are difficult to repair. Making SPoFs easy to repair improves availabilty. Use preventative maintenance.
+* Availability - individual components of a system may be available within the period measured (SLA), but it does not mean the system is functioning correctly.
+* Repairability - reduces downtime. Complex systems are difficult to repair. Making SPoFs easy to repair improves availabilty. Use preventative maintenance.
 * Scalability - automated, flexible and demand based resource use (CPU, Network, Storage).  
 
 
   
 ### **Notes**
-SRE = Ops focused Development. Maybe we should call it OpsDev?  
+SRE = Ops focused Development. You could call it OpsDev.
 
 DevSecOps = Security gets the focus but really this is DevComplianceOps and applies to any standard you need to comply with.  
 
@@ -83,5 +84,7 @@ Agile = is a framework - flexible, non prescriptive (ambiguous, no specific step
 Development = is a methodology (prescriptive, consistent, systematic way of doing something).
 
 ChatOps = is a preventative control. It ensures changes are reviewed and approved by knowledgable person prior to progressing the workflow.
+
+Tech Debt = addressing technical debt is a form of preventatitive maintenance.
 
 Monitoring = is a reactive control, detection is post event occurrance. 
