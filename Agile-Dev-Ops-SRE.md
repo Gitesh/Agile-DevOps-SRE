@@ -35,7 +35,7 @@ Respond to market                  Deliver change               Preserve reliabi
                                                                                                      Scalability (adaptive capacity)
                                       -----------------DevOps-------------------->    ; Dev led - in newer Products, change to codebase is constant
                                       ----------------DevSecOps------------------>    ; Security led - this is really DevComplianceOps
-                                                                     |---GitOps---|   ; Infrastructure configuration - ephemeral, scalable, immutable, repeatable 
+                                                                     |---GitOps---|   ; Version controlled infrastructure configuration - ephemeral, scalable,                                                                                                                                                   immutable, repeatable
                                                                      |----AIOps---|   ; Prevantative maintenance enabled by predictive failure and anomaly detection
               |-----------------------FinOps--------------------------------------|   ; forecasting, budgeting and tracking spend across the SDLC
                                                     |----ChatOps----|                 ; use of auditable collaboration tools to progress workflow requests
