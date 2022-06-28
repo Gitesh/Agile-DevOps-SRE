@@ -25,21 +25,20 @@ Respond to market                  Deliver change               Preserve reliabi
 
 <pre>
  ----------------                    -------------                    ------------
-| Change (agile) | ---[backlog]---> | Build (dev) | ---[release]---> | Run (ops)  |  ; Where [] is the transition.
+| Change (agile) | ---[backlog]---> | Build (dev) | ---[release]---> | Run (ops)  |   ; Where [] is the transition.
  ----------------                    -------------                    ------------
 
-                                     \<----------------SRE-----------------------/   ; Ops led - mature Products with very little change to codebase
-                                                                                               - focus is on NFRs:
+                                      <----------------SRE------------------------|   ; Ops led - mature Products with very little change to codebase
+                                                                                                - focus is on NFRs:
                                                                                                      Reliability (security, performance, integrity)
                                                                                                      Availability (resilience, redundancy, recovery, repairability)
                                                                                                      Scalability (adaptive capacity)
-                                       \-------------DevOps--------------->/         ; Dev led - in newer Products, change to codebase is constant
-                                        \-----------DevSecOps------------>/          ; Security led - this is really DevComplianceOps
-                                                                      \--GitOps--/   ; Infrastructure configuration - ephemeral, scalable, immutable,
-                                                                                                                      repeatable
-                                                                      \--AIOps---/    ; Prevantative maintenance enabled by predictive failure and anomaly detection
-              \-----------------------FinOps-------------------------------------/    ; forecasting, budgeting and tracking spend across the SDLC
-                                                    \----ChatOps----/                 ; use of auditable collaboration tools to progress workflow requests
+                                      -----------------DevOps-------------------->    ; Dev led - in newer Products, change to codebase is constant
+                                      ----------------DevSecOps------------------>    ; Security led - this is really DevComplianceOps
+                                                                     |---GitOps---|   ; Infrastructure configuration - ephemeral, scalable, immutable, repeatable 
+                                                                     |----AIOps---|   ; Prevantative maintenance enabled by predictive failure and anomaly detection
+              |-----------------------FinOps--------------------------------------|   ; forecasting, budgeting and tracking spend across the SDLC
+                                                    |----ChatOps----|                 ; use of auditable collaboration tools to progress workflow requests
 </pre>
 
 ### **Principles**
