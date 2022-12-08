@@ -87,4 +87,6 @@ ChatOps = is a preventative control. It ensures changes are reviewed and approve
 
 Tech Debt = addressing technical debt is a form of preventatitive maintenance.
 
-Monitoring = is a reactive control, detection is post event occurrance. 
+Monitoring = is a reactive control if detection is post event occurrance; a preventative control if historical data is used to identfiy trends.
+
+AIOps = data science and machine learning used to automate operational processes
